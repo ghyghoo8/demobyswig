@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <meta name="renderer" content="ie-comp">
+    <link rel="stylesheet" href="../css/base.css"/>
+    <script type="text/javascript" src="../js/jquery-1.10.2.min.js"></script>
+    <!--body style-->
+    <link rel="stylesheet" href="../css/main.css"/>
+
+</head>
+<body>
+    {% block head %}
+        {% include "../components/header.html" %}
+    {% endblock %}
+
+    {% block content %}{% endblock %}
+
+    {% block foot %}
+        {% include "../components/footer.html" %}
+    {% endblock %}
+</body>
+</html>

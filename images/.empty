@@ -1,0 +1,17 @@
+{
+  "name": "demobuild",
+  "version": "0.1.0",
+  "description": "build for demo",
+  "main": "build.js",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "dependencies": {
+    "swig":"1.4.2",
+    "watch": "0.13.0",
+    "walk":"2.3.4",
+    "fs-extra": "0.13.0"
+  },
+  "author": "ghy",
+  "license": "MIT"
+}

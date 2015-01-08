@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+b {
+    font-weight: 700;
+}
+
+body {
+    line-height: 1.2em;
+    font-family: 'microsoft yahei', tahoma, arial;
+    color: #333;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/**====reset end======**/
+
+img {
+    vertical-align: middle;
+}
+
+/*=设计师确认是964px=*/
+.layout {
+    margin: 0 auto;
+    font-family: 'microsoft yahei', Arial;
+    box-sizing: border-box;
+    max-width: 964px;
+    zoom: 1;
+}
+
+.rel {
+    position: relative;
+}
+
+.pipe {
+    padding: 0 6px;
+}
+
+.fl {
+    float: left;
+}
+
+.ow {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.tc {
+    text-align: center;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
+
+.mr20 {
+    margin-right: 20px;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.f16 {
+    font-size: 16px;
+}
+
+.f20 {
+    font-size: 20px;
+}
+
+.vm {
+    vertical-align: middle;
+}
+
+.cPink {
+    color: #ff5a5f;
+}
+
+.fr {
+    float: right;
+}
+
+.bb-layout {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.img {
+    display: block;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.btn, .btn:hover {
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    background: #da1515;
+    color: #fff;
+    text-decoration: none;
+    border: 0 none;
+    cursor: pointer;
+}
+
+.link, .link:hover {
+    color: #4088ff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.color0 {
+    color: #ff6600;
+}
+
+.color1 {
+    color: #ff0808;
+}
+
+.color2 {
+    color: #949393;
+}
+
+.color3 {
+    color: #333333;
+}
+
+.txt {
+    margin-bottom:30px;
+    width:494px;
+    height:54px;
+    line-height:54px;
+    font-size:18px;
+    border:1px solid #e4e4e4;
+    box-shadow:inset 2px 2px 2px #666;
+    text-indent:48px;
+}
+
+.name-txt, .pwd-txt, .phone-txt {
+    background:url("images/icon.png")#f5f5f5 13px -46px no-repeat;
+}
+
+.pwd-txt {
+    background-position:13px -88px;
+}
+
+.phone-txt {
+    background-position:13px -128px;
+}
+
+.error-txt {
+    border:1px solid #f03e3e;
+}
+
+.warn-txt {
+    border:1px solid #f6da21;
+}
+
+.correct-tip,.error-tip {
+    display:inline-block;
+    padding-left:40px;
+    height:30px;
+    line-height:30px;
+    font-size:18px;
+    background:url(images/icon.png) 0 -409px no-repeat;
+}
+
+.error-tip {
+    background-position:0 -442px;color:#f03e3e;
+}
